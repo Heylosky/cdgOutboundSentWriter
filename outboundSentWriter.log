@@ -1,0 +1,3 @@
+{"level":"INFO","time":"2023-01-10T11:50:07.980+0800","caller":"outboundSentWriter/main.go:12","msg":"Outbound sent record DB processor starting..."}
+{"level":"INFO","time":"2023-01-10T11:50:07.980+0800","caller":"db/init.go:18","msg":"Outbound sent record DB connection starting."}
+{"level":"PANIC","time":"2023-01-10T11:50:37.982+0800","caller":"messageQ/init.go:10","msg":"Failed to connect to RabbitMQ","error":"dial tcp 172.25.240.10:31656: i/o timeout"}
