@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	logger.InitLogger("./outboundSentWriter.log")
+	logger.InitLogger("./logs/outboundSentWriter.log")
 	zap.L().Info("Outbound sent record DB processor starting...")
 
 	outSentChan := make(chan []byte)
